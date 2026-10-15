@@ -1,11 +1,55 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>My Mini Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyberpunk 2077 | Home</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/script.js" defer></script>
   </head>
+
   <body>
-    <h1>My Theme Title</h1>
-    <p>This site is about ________. Here is one cool fact: ________.</p>
-    <a href="https://google.com">Google</a>
-    <img src="photo.jpg" alt="Describe your image" />
+    <header>
+      <h1>Cyberpunk 2077</h1>
+      <p>Welcome to Night City.</p>
+
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card">
+        <img
+          src="assets/img/Cyberpunk 2077.jpeg"
+          alt="Cyberpunk 2077 cover art"
+          width="200"
+          height="300"
+        />
+
+        <h2>Explore Night City</h2>
+        <p>
+          Cyberpunk 2077 is an action role-playing game set in a futuristic
+          city filled with advanced technology and dangerous people.
+        </p>
+
+        <a class="button" href="https://www.cyberpunk.net/ph/en/">
+          Visit the Official Website
+        </a>
+      </section>
+
+      <section class="card">
+        <h2>Did You Know?</h2>
+        <p id="fact" aria-live="polite">
+          Click the button to learn a fact about the game.
+        </p>
+        <button id="fact-button" type="button">Show a Fact</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>A beginner website by a Cyberpunk fan.</p>
+    </footer>
   </body>
 </html>

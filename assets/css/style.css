@@ -1,0 +1,106 @@
+/* Page colors and font */
+body {
+  margin: 0;
+  background-color: #14141c;
+  color: #eeeeee;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Website heading */
+header {
+  padding: 30px 20px;
+  background-color: #fcee09;
+  color: #14141c;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  margin-top: 5px;
+}
+
+/* Navigation links */
+nav a {
+  display: inline-block;
+  margin: 5px;
+  padding: 6px 16px;
+  border: 2px solid #14141c;
+  border-radius: 5px;
+  color: #14141c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+  background-color: #14141c;
+  color: #fcee09;
+}
+
+/* Main content */
+main {
+  max-width: 750px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.card {
+  margin-bottom: 25px;
+  padding: 25px;
+  background-color: #222230;
+  border-left: 4px solid #00e5ff;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #00e5ff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 25px;
+  border-radius: 6px;
+}
+
+/* Buttons and website link */
+button,
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fcee09;
+  color: #14141c;
+  font: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+  background-color: #00e5ff;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #ff6ec7;
+  outline-offset: 4px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+footer {
+  padding: 20px;
+  color: #b8b8c8;
+  text-align: center;
+}
